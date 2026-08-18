@@ -1,0 +1,52 @@
+{
+  "documents": [
+    {
+      "document_id": "POL-001",
+      "file_name": "leave_policy.md",
+      "title": "Leave Policy",
+      "version": "2.3",
+      "effective_date": "2026-01-01",
+      "status": "active"
+    },
+    {
+      "document_id": "POL-002",
+      "file_name": "travel_expense_policy.md",
+      "title": "Travel and Expense Policy",
+      "version": "1.8",
+      "effective_date": "2025-11-01",
+      "status": "active"
+    },
+    {
+      "document_id": "POL-003",
+      "file_name": "remote_work_policy.md",
+      "title": "Remote Work Policy",
+      "version": "3.0",
+      "effective_date": "2026-03-15",
+      "status": "active"
+    },
+    {
+      "document_id": "POL-004",
+      "file_name": "information_security_policy.md",
+      "title": "Information Security Policy",
+      "version": "4.1",
+      "effective_date": "2026-02-01",
+      "status": "active"
+    },
+    {
+      "document_id": "POL-005",
+      "file_name": "employee_onboarding_guide.md",
+      "title": "Employee Onboarding Guide",
+      "version": "1.4",
+      "effective_date": "2026-01-15",
+      "status": "active"
+    },
+    {
+      "document_id": "POL-006",
+      "file_name": "acceptable_use_policy.md",
+      "title": "Acceptable Use Policy",
+      "version": "2.0",
+      "effective_date": "2025-09-01",
+      "status": "active"
+    }
+  ]
+}

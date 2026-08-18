@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Policy Q&A Assistant</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --panel: #171a23;
+    --border: #2a2e3a;
+    --text: #e8e9ed;
+    --muted: #9a9fae;
+    --accent: #5b8def;
+    --good: #4caf7d;
+    --bad: #e0666b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  h1 { font-size: 1.4rem; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; }
+
+  .ingest-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 24px;
+    font-size: 0.85rem;
+  }
+  .ingest-bar button {
+    background: var(--border);
+    color: var(--text);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  .ingest-bar button:hover { background: #363c4d; }
+  #ingestStatus { color: var(--muted); }
+
+  form { display: flex; gap: 10px; margin-bottom: 28px; }
+  input[type=text] {
+    flex: 1;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  input[type=text]:focus { outline: none; border-color: var(--accent); }
+  button.ask {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  button.ask:disabled { opacity: 0.5; cursor: default; }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .badge.supported { background: rgba(76,175,125,0.15); color: var(--good); }
+  .badge.refused { background: rgba(224,102,107,0.15); color: var(--bad); }
+
+  .answer-text { line-height: 1.55; font-size: 0.98rem; }
+
+  .citations { margin-top: 14px; }
+  .citations-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+  .citation-chip {
+    display: inline-block;
+    font-size: 0.78rem;
+    background: rgba(91,141,239,0.12);
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 2px 4px 2px 0;
+  }
+
+  details { margin-top: 14px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 0.8rem; }
+  .evidence-chunk {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background: #10131a;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .evidence-chunk .src { color: var(--text); font-weight: 600; margin-bottom: 4px; }
+
+  .loading { color: var(--muted); font-size: 0.9rem; }
+  .example-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .example-chip {
+    font-size: 0.78rem;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .example-chip:hover { border-color: var(--accent); color: var(--text); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Policy Q&amp;A Assistant</h1>
+  <div class="subtitle">Ask a question about company policy. Answers are grounded only in the ingested documents.</div>
+
+  <div class="ingest-bar">
+    <button onclick="ingest()">Ingest documents</button>
+    <span id="ingestStatus">Not checked yet — click to load the policy collection.</span>
+  </div>
+
+  <div class="example-row">
+    <span class="example-chip" onclick="fillExample(this)">How many sick leave days do I get?</span>
+    <span class="example-chip" onclick="fillExample(this)">Can I work remotely from another country?</span>
+    <span class="example-chip" onclick="fillExample(this)">What's the notice period for UAE labour law?</span>
+  </div>
+
+  <form id="askForm" onsubmit="return ask(event)">
+    <input type="text" id="questionInput" placeholder="Ask a policy question..." autocomplete="off">
+    <button type="submit" class="ask" id="askBtn">Ask</button>
+  </form>
+
+  <div id="results"></div>
+</div>
+
+<script>
+const API_BASE = "";  // same origin
+
+function fillExample(el) {
+  document.getElementById("questionInput").value = el.textContent;
+}
+
+async function ingest() {
+  const statusEl = document.getElementById("ingestStatus");
+  statusEl.textContent = "Ingesting... (calling Gemini for each section, may take 20-30s)";
+  try {
+    const res = await fetch(`${API_BASE}/documents/ingest`, { method: "POST" });
+    const data = await res.json();
+    if (!res.ok) {
+      statusEl.textContent = `Error: ${data.detail || res.status}`;
+      return;
+    }
+    statusEl.textContent = `${data.ingested} ingested, ${data.skipped_duplicate} already up to date, ${data.failed} failed — ${data.total_chunks_created} new chunks.`;
+  } catch (err) {
+    statusEl.textContent = `Request failed: ${err}`;
+  }
+}
+
+async function ask(event) {
+  event.preventDefault();
+  const input = document.getElementById("questionInput");
+  const question = input.value.trim();
+  if (!question) return false;
+
+  const btn = document.getElementById("askBtn");
+  btn.disabled = true;
+  btn.textContent = "Thinking...";
+
+  const results = document.getElementById("results");
+  const loadingCard = document.createElement("div");
+  loadingCard.className = "card loading";
+  loadingCard.textContent = "Retrieving evidence and generating an answer...";
+  results.prepend(loadingCard);
+
+  try {
+    const res = await fetch(`${API_BASE}/questions`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question })
+    });
+    const data = await res.json();
+    loadingCard.remove();
+
+    if (!res.ok) {
+      renderError(data.detail || `HTTP ${res.status}`);
+      return false;
+    }
+    renderAnswer(question, data);
+  } catch (err) {
+    loadingCard.remove();
+    renderError(String(err));
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Ask";
+  }
+  return false;
+}
+
+function renderError(message) {
+  const results = document.getElementById("results");
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `<span class="badge refused">ERROR</span><div class="answer-text">${escapeHtml(message)}</div>`;
+  results.prepend(card);
+}
+
+function renderAnswer(question, data) {
+  const results = document.getElementById("results");
+  const card = document.createElement("div");
+  card.className = "card";
+
+  const badge = data.supported
+    ? `<span class="badge supported">Supported</span>`
+    : `<span class="badge refused">Refused${data.reason_for_refusal ? " — " + data.reason_for_refusal.replace(/_/g, " ") : ""}</span>`;
+
+  let citationsHtml = "";
+  if (data.citations && data.citations.length) {
+    citationsHtml = `
+      <div class="citations">
+        <div class="citations-label">Sources</div>
+        ${data.citations.map(c => `<span class="citation-chip">${escapeHtml(c.document_title)} — ${escapeHtml(c.section)}</span>`).join("")}
+      </div>`;
+  }
+
+  let evidenceHtml = "";
+  if (data.retrieved_sources && data.retrieved_sources.length) {
+    evidenceHtml = `
+      <details>
+        <summary>Show retrieved evidence (${data.retrieved_sources.length} chunks)</summary>
+        ${data.retrieved_sources.map(s => `
+          <div class="evidence-chunk">
+            <div class="src">${escapeHtml(s.document_title)} — ${escapeHtml(s.section)} (score ${s.score.toFixed(2)})</div>
+            ${escapeHtml(s.text)}
+          </div>`).join("")}
+      </details>`;
+  }
+
+  card.innerHTML = `
+    ${badge}
+    <div style="color: var(--muted); font-size: 0.82rem; margin-bottom: 8px;">${escapeHtml(question)}</div>
+    <div class="answer-text">${escapeHtml(data.answer)}</div>
+    ${citationsHtml}
+    ${evidenceHtml}
+  `;
+  results.prepend(card);
+}
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str;
+  return div.innerHTML;
+}
+</script>
+</body>
+</html>

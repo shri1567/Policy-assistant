@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "question_id": "Q01",
+      "question": "How many days of annual leave do full-time employees accrue per month?",
+      "type": "supported",
+      "expected_source_document": "POL-001",
+      "expected_section": "Section 2",
+      "expected_answer_points": ["1.75 days per completed month, max 21 days/year"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q02",
+      "question": "What is the maximum annual leave carry-forward into the next year?",
+      "type": "supported",
+      "expected_source_document": "POL-001",
+      "expected_section": "Section 2.3",
+      "expected_answer_points": ["5 days standard, up to 10 with manager+HR exception for client-critical projects"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q03",
+      "question": "How many days of paid parental leave does a secondary caregiver get?",
+      "type": "supported",
+      "expected_source_document": "POL-001",
+      "expected_section": "Section 4.2",
+      "expected_answer_points": ["14 calendar days"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q04",
+      "question": "What is the per-diem for international business travel?",
+      "type": "supported",
+      "expected_source_document": "POL-002",
+      "expected_section": "Section 4.1",
+      "expected_answer_points": ["USD 60/day international, USD 35/day domestic"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q05",
+      "question": "Within how many days must an expense report be submitted after a trip?",
+      "type": "supported",
+      "expected_source_document": "POL-002",
+      "expected_section": "Section 6.1",
+      "expected_answer_points": ["14 calendar days, hard cutoff 30 days without exception approval"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q06",
+      "question": "How many remote days per week are allowed under the standard hybrid arrangement?",
+      "type": "supported",
+      "expected_source_document": "POL-003",
+      "expected_section": "Section 3.1",
+      "expected_answer_points": ["up to 2 remote days per week"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q07",
+      "question": "How many days per year can an employee work remotely from another country?",
+      "type": "supported",
+      "expected_source_document": "POL-003",
+      "expected_section": "Section 5.2",
+      "expected_answer_points": ["capped at 20 working days/year unless separate agreement or international assignment"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q08",
+      "question": "How often must passwords be changed under the information security policy?",
+      "type": "supported",
+      "expected_source_document": "POL-004",
+      "expected_section": "Section 2.2",
+      "expected_answer_points": ["every 180 days, min 12 characters, no reuse of last 5"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q09",
+      "question": "Within what timeframe must a suspected security incident be reported?",
+      "type": "supported",
+      "expected_source_document": "POL-004",
+      "expected_section": "Section 5.1",
+      "expected_answer_points": ["within 1 hour of discovery"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q10",
+      "question": "What is the standard probation period length for new hires?",
+      "type": "supported",
+      "expected_source_document": "POL-005",
+      "expected_section": "Section 5.1",
+      "expected_answer_points": ["90 days from date of joining, extendable by up to 30 days"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q11",
+      "question": "If I'm a new hire working remotely and want to claim travel per-diem for a work trip in my first month, what rules apply?",
+      "type": "multi_document",
+      "expected_source_document": "POL-005, POL-002",
+      "expected_section": "Onboarding Section 2-3; Travel Section 4",
+      "expected_answer_points": ["onboarding timeline/requirements apply regardless of travel; per-diem rules from travel policy apply the same way to any employee"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q12",
+      "question": "Can a fully remote employee working from another country store confidential client data on a personal laptop?",
+      "type": "multi_document",
+      "expected_source_document": "POL-003, POL-004",
+      "expected_section": "Remote Work Section 5; Info Security Section 3.2",
+      "expected_answer_points": ["no - security policy prohibits restricted/confidential data on personal devices regardless of remote work arrangement"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q13",
+      "question": "During onboarding, what security training is required and by when, and what device security rules apply to the laptop issued on Day One?",
+      "type": "multi_document",
+      "expected_source_document": "POL-005, POL-004",
+      "expected_section": "Onboarding Section 4.1; Info Security Section 4.1",
+      "expected_answer_points": ["security awareness training within 7 working days; issued laptop must meet Section 4.1 device security requirements"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q14",
+      "question": "Can an employee book business class for a 5-hour flight and expense alcohol at a client dinner?",
+      "type": "multi_document",
+      "expected_source_document": "POL-002",
+      "expected_section": "Section 2.2, 2.3, Section 7.1",
+      "expected_answer_points": ["business class generally not allowed under 6 hours unless medical exception; alcohol not reimbursable unless part of client meal per Section 7"],
+      "should_answer": true
+    },
+    {
+      "question_id": "Q15",
+      "question": "How much leave can I take?",
+      "type": "ambiguous",
+      "expected_source_document": "POL-001",
+      "expected_section": "N/A - question underspecified",
+      "expected_answer_points": ["needs clarification: which leave type (annual, sick, parental, emergency, unpaid)"],
+      "should_answer": false
+    },
+    {
+      "question_id": "Q16",
+      "question": "Is remote work allowed?",
+      "type": "ambiguous",
+      "expected_source_document": "POL-003",
+      "expected_section": "N/A - question underspecified",
+      "expected_answer_points": ["depends on tenure, arrangement type, and whether it's domestic or cross-border - too broad to answer directly"],
+      "should_answer": false
+    },
+    {
+      "question_id": "Q17",
+      "question": "What happens if I violate policy?",
+      "type": "ambiguous",
+      "expected_source_document": "POL-006",
+      "expected_section": "N/A - question underspecified",
+      "expected_answer_points": ["depends which policy; only Acceptable Use Section 8 speaks generally to disciplinary action"],
+      "should_answer": false
+    },
+    {
+      "question_id": "Q18",
+      "question": "What is the statutory minimum notice period required by UAE labour law for termination?",
+      "type": "unsupported",
+      "expected_source_document": "none",
+      "expected_section": "none",
+      "expected_answer_points": ["not covered - this is a legal question outside the supplied policy collection"],
+      "should_answer": false
+    },
+    {
+      "question_id": "Q19",
+      "question": "Can I get an exception to work fully remote from a country not yet covered by a remote work agreement, if my manager verbally agrees?",
+      "type": "unsupported",
+      "expected_source_document": "none",
+      "expected_section": "none",
+      "expected_answer_points": ["not covered - policy requires HR/Legal approval and formal agreement, hypothetical verbal exception is not addressed"],
+      "should_answer": false
+    },
+    {
+      "question_id": "Q20",
+      "question": "How many sick leave days has employee ID 4521 used this year?",
+      "type": "unsupported",
+      "expected_source_document": "none",
+      "expected_section": "none",
+      "expected_answer_points": ["not covered - personal employee record, not part of the policy collection"],
+      "should_answer": false
+    }
+  ]
+}
