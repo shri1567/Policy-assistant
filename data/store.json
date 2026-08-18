@@ -137303,6 +137303,527 @@
         "final_context_sent_to_model": "[document_id: POL-001 | section: Section 2 \u2014 Annual Leave]\n2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.\n\n[document_id: POL-001 | section: Section 7 \u2014 Leave During Notice Period]\n7.1 Annual leave may not be availed during the final 15 days of a resignation notice period unless mutually agreed upon with the manager in writing, to allow for adequate handover.\n7.2 Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, is paid out as part of the final settlement, calculated on the employee's last drawn basic salary.\n\n[document_id: POL-001 | section: Section 1 \u2014 Purpose and Scope]\nThis policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.\n\n[document_id: POL-001 | section: Section 4 \u2014 Parental Leave]\n4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.\n\n[document_id: POL-001 | section: Section 6 \u2014 Emergency Leave]\n6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.\n\n[document_id: POL-001 | section: Section 5 \u2014 Unpaid Leave]\n5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
         "raw_model_output": "{\n  \"answer\": \"The exact total number of leave days cannot be determined from the provided text, as individual leave balances depend on employee status, tenure, leave usage, and eligibility. However, the policy outlines specific entitlements by leave type for full-time employees:\\n\\n- Annual Leave: Full-time employees accrue 1.75 days per month, up to a maximum of 21 days per calendar year. Annual leave must be requested through the HR portal at least 5 working days in advance.\\n- Emergency Leave: Employees may take up to 3 days per year without advance notice, but must notify their manager within 24 hours.\\n- Parental Leave: Primary caregivers are entitled to 90 calendar days, while secondary caregivers are entitled to 14 calendar days. Requests must be submitted at least 30 days in advance, except in cases of premature birth or medical emergency.\\n- Unpaid Leave: Employees may request up to 30 days for personal reasons, subject to approval.\",\n  \"supported\": false,\n  \"citations\": [\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 2 \u2014 Annual Leave\"\n    },\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 4 \u2014 Parental Leave\"\n    },\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 5 \u2014 Unpaid Leave\"\n    },\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 6 \u2014 Emergency Leave\"\n    }\n  ]\n}"
       }
+    },
+    "27be1060-da0a-4a7d-a409-c97fd341387b": {
+      "question_text": "How many sick leave days do I get?",
+      "answer_json": {
+        "question_id": "27be1060-da0a-4a7d-a409-c97fd341387b",
+        "answer": "Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.",
+        "supported": true,
+        "citations": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 3 \u2014 Sick Leave"
+          }
+        ],
+        "retrieved_sources": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 3 \u2014 Sick Leave",
+            "text": "3.1 Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.\n3.2 Sick leave exceeding 2 consecutive days requires a medical certificate submitted within 3 working days of return. A single-day sick leave does not require documentation but repeated single-day absences (more than 4 in a rolling 3-month period) may trigger a manager check-in.\n3.3 Sick leave does not carry forward to the next calendar year and has no cash-equivalent payout on exit.\n3.4 Sick leave taken while on approved annual leave converts the affected days back to sick leave, provided a medical certificate is furnished; the annual leave balance is restored accordingly.",
+            "score": 0.7549650962237268
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 2 \u2014 Annual Leave",
+            "text": "2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.",
+            "score": 0.6552503210469713
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.6506204217603605
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.6352874749027769
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.6258987727681654
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+            "score": 0.617676286246462
+          }
+        ],
+        "confidence": 0.7549650962237268,
+        "reason_for_refusal": null,
+        "created_at": "2026-08-18T06:07:35.238364Z"
+      },
+      "debug_json": {
+        "query": "How many sick leave days do I get?",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 3 \u2014 Sick Leave",
+            "text": "3.1 Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.\n3.2 Sick leave exceeding 2 consecutive days requires a medical certificate submitted within 3 working days of return. A single-day sick leave does not require documentation but repeated single-day absences (more than 4 in a rolling 3-month period) may trigger a manager check-in.\n3.3 Sick leave does not carry forward to the next calendar year and has no cash-equivalent payout on exit.\n3.4 Sick leave taken while on approved annual leave converts the affected days back to sick leave, provided a medical certificate is furnished; the annual leave balance is restored accordingly.",
+            "score": 0.7549650962237268
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 2 \u2014 Annual Leave",
+            "text": "2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.",
+            "score": 0.6552503210469713
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.6506204217603605
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.6352874749027769
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.6258987727681654
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+            "score": 0.617676286246462
+          }
+        ],
+        "final_context_sent_to_model": "[document_id: POL-001 | section: Section 3 \u2014 Sick Leave]\n3.1 Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.\n3.2 Sick leave exceeding 2 consecutive days requires a medical certificate submitted within 3 working days of return. A single-day sick leave does not require documentation but repeated single-day absences (more than 4 in a rolling 3-month period) may trigger a manager check-in.\n3.3 Sick leave does not carry forward to the next calendar year and has no cash-equivalent payout on exit.\n3.4 Sick leave taken while on approved annual leave converts the affected days back to sick leave, provided a medical certificate is furnished; the annual leave balance is restored accordingly.\n\n[document_id: POL-001 | section: Section 2 \u2014 Annual Leave]\n2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.\n\n[document_id: POL-001 | section: Section 6 \u2014 Emergency Leave]\n6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.\n\n[document_id: POL-001 | section: Section 4 \u2014 Parental Leave]\n4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.\n\n[document_id: POL-001 | section: Section 5 \u2014 Unpaid Leave]\n5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.\n\n[document_id: POL-001 | section: Section 1 \u2014 Purpose and Scope]\nThis policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+        "raw_model_output": "{\n  \"answer\": \"Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.\",\n  \"supported\": true,\n  \"citations\": [\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 3 \u2014 Sick Leave\"\n    }\n  ]\n}"
+      }
+    },
+    "e35f2aae-0b41-4d0d-9d5b-4a0c74431a55": {
+      "question_text": "Resignation",
+      "answer_json": {
+        "question_id": "e35f2aae-0b41-4d0d-9d5b-4a0c74431a55",
+        "answer": "Regarding leave during a resignation notice period:\n\n- Mandatory Rule: Annual leave must not (may not) be availed during the final 15 days of a resignation notice period unless it is mutually agreed upon with the manager in writing to allow for an adequate handover.\n- Exit Settlement: Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, must be paid out as part of the final settlement, calculated based on the employee's last drawn basic salary.",
+        "supported": true,
+        "citations": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 7 \u2014 Leave During Notice Period"
+          }
+        ],
+        "retrieved_sources": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 7 \u2014 Leave During Notice Period",
+            "text": "7.1 Annual leave may not be availed during the final 15 days of a resignation notice period unless mutually agreed upon with the manager in writing, to allow for adequate handover.\n7.2 Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, is paid out as part of the final settlement, calculated on the employee's last drawn basic salary.",
+            "score": 0.6073756653991335
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.5302573221561212
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 7 \u2014 Performance and Availability",
+            "text": "7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.",
+            "score": 0.529643986233457
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.523402193911826
+          },
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 7 \u2014 Monitoring",
+            "text": "7.1 The company reserves the right to monitor use of company-owned systems and networks for security and compliance purposes, in accordance with applicable local law.\n7.2 Monitoring data is retained for a maximum of 12 months except where required for an active investigation, and access to monitoring data is restricted to authorized Security and HR personnel.",
+            "score": 0.5231749912758922
+          },
+          {
+            "document_id": "POL-004",
+            "document_title": "Information Security Policy",
+            "section": "Section 7 \u2014 Exceptions",
+            "text": "7.1 Security exceptions (e.g., use of an unapproved tool for a time-boxed pilot) require sign-off from the CISO and must be logged in the Exception Register with an expiry date, after which the exception automatically lapses unless renewed.\n7.2 Exceptions involving Restricted data require an additional Legal review before approval, given regulatory and contractual implications.",
+            "score": 0.5182678193966039
+          }
+        ],
+        "confidence": 0.6073756653991335,
+        "reason_for_refusal": null,
+        "created_at": "2026-08-18T06:51:19.760007Z"
+      },
+      "debug_json": {
+        "query": "Resignation",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 7 \u2014 Leave During Notice Period",
+            "text": "7.1 Annual leave may not be availed during the final 15 days of a resignation notice period unless mutually agreed upon with the manager in writing, to allow for adequate handover.\n7.2 Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, is paid out as part of the final settlement, calculated on the employee's last drawn basic salary.",
+            "score": 0.6073756653991335
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.5302573221561212
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 7 \u2014 Performance and Availability",
+            "text": "7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.",
+            "score": 0.529643986233457
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.523402193911826
+          },
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 7 \u2014 Monitoring",
+            "text": "7.1 The company reserves the right to monitor use of company-owned systems and networks for security and compliance purposes, in accordance with applicable local law.\n7.2 Monitoring data is retained for a maximum of 12 months except where required for an active investigation, and access to monitoring data is restricted to authorized Security and HR personnel.",
+            "score": 0.5231749912758922
+          },
+          {
+            "document_id": "POL-004",
+            "document_title": "Information Security Policy",
+            "section": "Section 7 \u2014 Exceptions",
+            "text": "7.1 Security exceptions (e.g., use of an unapproved tool for a time-boxed pilot) require sign-off from the CISO and must be logged in the Exception Register with an expiry date, after which the exception automatically lapses unless renewed.\n7.2 Exceptions involving Restricted data require an additional Legal review before approval, given regulatory and contractual implications.",
+            "score": 0.5182678193966039
+          }
+        ],
+        "final_context_sent_to_model": "[document_id: POL-001 | section: Section 7 \u2014 Leave During Notice Period]\n7.1 Annual leave may not be availed during the final 15 days of a resignation notice period unless mutually agreed upon with the manager in writing, to allow for adequate handover.\n7.2 Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, is paid out as part of the final settlement, calculated on the employee's last drawn basic salary.\n\n[document_id: POL-001 | section: Section 5 \u2014 Unpaid Leave]\n5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.\n\n[document_id: POL-003 | section: Section 7 \u2014 Performance and Availability]\n7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.\n\n[document_id: POL-001 | section: Section 6 \u2014 Emergency Leave]\n6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.\n\n[document_id: POL-006 | section: Section 7 \u2014 Monitoring]\n7.1 The company reserves the right to monitor use of company-owned systems and networks for security and compliance purposes, in accordance with applicable local law.\n7.2 Monitoring data is retained for a maximum of 12 months except where required for an active investigation, and access to monitoring data is restricted to authorized Security and HR personnel.\n\n[document_id: POL-004 | section: Section 7 \u2014 Exceptions]\n7.1 Security exceptions (e.g., use of an unapproved tool for a time-boxed pilot) require sign-off from the CISO and must be logged in the Exception Register with an expiry date, after which the exception automatically lapses unless renewed.\n7.2 Exceptions involving Restricted data require an additional Legal review before approval, given regulatory and contractual implications.",
+        "raw_model_output": "{\n  \"answer\": \"Regarding leave during a resignation notice period:\\n\\n- Mandatory Rule: Annual leave must not (may not) be availed during the final 15 days of a resignation notice period unless it is mutually agreed upon with the manager in writing to allow for an adequate handover.\\n- Exit Settlement: Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, must be paid out as part of the final settlement, calculated based on the employee's last drawn basic salary.\",\n  \"supported\": true,\n  \"citations\": [\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 7 \u2014 Leave During Notice Period\"\n    }\n  ]\n}"
+      }
+    },
+    "9414cead-4a72-4f1a-bbd4-9419dbd860b0": {
+      "question_text": "Insurance",
+      "answer_json": {
+        "question_id": "9414cead-4a72-4f1a-bbd4-9419dbd860b0",
+        "answer": "The policy outlines the following mandatory rules regarding insurance:\n\n- Travel Insurance: All domestic and international travel must be booked through the approved corporate travel portal, which ensures travel insurance is automatically applied. Same-day return trips with flight times under 3 hours must still be logged in the travel portal for insurance and duty-of-care purposes. Additionally, travel insurance already covered by the corporate policy is not reimbursable under any circumstance.\n- Health Insurance: Health insurance coverage is suspended after 45 consecutive days of unpaid leave, unless the employee opts to self-fund premiums during that period.",
+        "supported": true,
+        "citations": [
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 2 \u2014 Travel Booking"
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 7 \u2014 Non-Reimbursable Items"
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave"
+          }
+        ],
+        "retrieved_sources": [
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 7 \u2014 Non-Reimbursable Items",
+            "text": "7.1 The following are not reimbursable under any circumstance: personal entertainment, alcohol not part of a client meal, traffic or parking fines, spa or minibar charges, and travel insurance already covered by the corporate policy.\n7.2 Alcohol as part of a client meal is reimbursable up to a reasonable limit (generally interpreted as no more than 2 drinks per attendee) and must be itemized separately from food on the receipt where possible.",
+            "score": 0.5505547428729884
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.5468832694579399
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 2 \u2014 Travel Booking",
+            "text": "2.1 All domestic and international travel must be booked through the approved corporate travel portal, which provides negotiated rates and ensures travel insurance is automatically applied.\n2.2 Economy class is the default for flights under 6 hours. Business class is permitted for flights exceeding 6 hours, subject to manager approval, and should be booked at least 10 days in advance where possible to control cost.\n2.3 Exception: Employees with a documented medical condition may be approved for business class regardless of flight duration, with HR and medical documentation on file. This exception is reviewed annually and does not require re-approval for each trip once on file.\n2.4 Same-day return trips under 3 hours' flight time do not require advance manager sign-off but must still be logged in the travel portal for insurance and duty-of-care purposes.",
+            "score": 0.5260395873357553
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.5232802384419512
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 2 \u2014 Eligibility",
+            "text": "2.1 Employees who have completed 3 months of continuous service are eligible to apply for a hybrid work arrangement, submitted through the HR portal with manager co-sign-off.\n2.2 New hires within their first 3 months must work from the office unless the role is designated fully remote at time of hiring, in which case the offer letter will state this explicitly.\n2.3 Eligibility may be paused for employees on a Performance Improvement Plan, at the manager's discretion, until performance concerns are resolved.",
+            "score": 0.5232765190475639
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 5 \u2014 Ground Transportation",
+            "text": "5.1 Ride-hailing and taxi expenses are reimbursable with itemized receipts, including airport transfers and client-site travel.\n5.2 Rental cars require pre-approval and are limited to mid-size vehicles unless client-facing requirements dictate otherwise (e.g., transporting equipment or multiple colleagues).\n5.3 Personal vehicle use for business travel is reimbursed at the company's published per-kilometer rate, reviewed annually, and does not include fuel receipts separately.",
+            "score": 0.5227328425500221
+          }
+        ],
+        "confidence": 0.5505547428729884,
+        "reason_for_refusal": null,
+        "created_at": "2026-08-18T06:53:15.473207Z"
+      },
+      "debug_json": {
+        "query": "Insurance",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 7 \u2014 Non-Reimbursable Items",
+            "text": "7.1 The following are not reimbursable under any circumstance: personal entertainment, alcohol not part of a client meal, traffic or parking fines, spa or minibar charges, and travel insurance already covered by the corporate policy.\n7.2 Alcohol as part of a client meal is reimbursable up to a reasonable limit (generally interpreted as no more than 2 drinks per attendee) and must be itemized separately from food on the receipt where possible.",
+            "score": 0.5505547428729884
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.5468832694579399
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 2 \u2014 Travel Booking",
+            "text": "2.1 All domestic and international travel must be booked through the approved corporate travel portal, which provides negotiated rates and ensures travel insurance is automatically applied.\n2.2 Economy class is the default for flights under 6 hours. Business class is permitted for flights exceeding 6 hours, subject to manager approval, and should be booked at least 10 days in advance where possible to control cost.\n2.3 Exception: Employees with a documented medical condition may be approved for business class regardless of flight duration, with HR and medical documentation on file. This exception is reviewed annually and does not require re-approval for each trip once on file.\n2.4 Same-day return trips under 3 hours' flight time do not require advance manager sign-off but must still be logged in the travel portal for insurance and duty-of-care purposes.",
+            "score": 0.5260395873357553
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.5232802384419512
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 2 \u2014 Eligibility",
+            "text": "2.1 Employees who have completed 3 months of continuous service are eligible to apply for a hybrid work arrangement, submitted through the HR portal with manager co-sign-off.\n2.2 New hires within their first 3 months must work from the office unless the role is designated fully remote at time of hiring, in which case the offer letter will state this explicitly.\n2.3 Eligibility may be paused for employees on a Performance Improvement Plan, at the manager's discretion, until performance concerns are resolved.",
+            "score": 0.5232765190475639
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 5 \u2014 Ground Transportation",
+            "text": "5.1 Ride-hailing and taxi expenses are reimbursable with itemized receipts, including airport transfers and client-site travel.\n5.2 Rental cars require pre-approval and are limited to mid-size vehicles unless client-facing requirements dictate otherwise (e.g., transporting equipment or multiple colleagues).\n5.3 Personal vehicle use for business travel is reimbursed at the company's published per-kilometer rate, reviewed annually, and does not include fuel receipts separately.",
+            "score": 0.5227328425500221
+          }
+        ],
+        "final_context_sent_to_model": "[document_id: POL-002 | section: Section 7 \u2014 Non-Reimbursable Items]\n7.1 The following are not reimbursable under any circumstance: personal entertainment, alcohol not part of a client meal, traffic or parking fines, spa or minibar charges, and travel insurance already covered by the corporate policy.\n7.2 Alcohol as part of a client meal is reimbursable up to a reasonable limit (generally interpreted as no more than 2 drinks per attendee) and must be itemized separately from food on the receipt where possible.\n\n[document_id: POL-001 | section: Section 5 \u2014 Unpaid Leave]\n5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.\n\n[document_id: POL-002 | section: Section 2 \u2014 Travel Booking]\n2.1 All domestic and international travel must be booked through the approved corporate travel portal, which provides negotiated rates and ensures travel insurance is automatically applied.\n2.2 Economy class is the default for flights under 6 hours. Business class is permitted for flights exceeding 6 hours, subject to manager approval, and should be booked at least 10 days in advance where possible to control cost.\n2.3 Exception: Employees with a documented medical condition may be approved for business class regardless of flight duration, with HR and medical documentation on file. This exception is reviewed annually and does not require re-approval for each trip once on file.\n2.4 Same-day return trips under 3 hours' flight time do not require advance manager sign-off but must still be logged in the travel portal for insurance and duty-of-care purposes.\n\n[document_id: POL-001 | section: Section 4 \u2014 Parental Leave]\n4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.\n\n[document_id: POL-003 | section: Section 2 \u2014 Eligibility]\n2.1 Employees who have completed 3 months of continuous service are eligible to apply for a hybrid work arrangement, submitted through the HR portal with manager co-sign-off.\n2.2 New hires within their first 3 months must work from the office unless the role is designated fully remote at time of hiring, in which case the offer letter will state this explicitly.\n2.3 Eligibility may be paused for employees on a Performance Improvement Plan, at the manager's discretion, until performance concerns are resolved.\n\n[document_id: POL-002 | section: Section 5 \u2014 Ground Transportation]\n5.1 Ride-hailing and taxi expenses are reimbursable with itemized receipts, including airport transfers and client-site travel.\n5.2 Rental cars require pre-approval and are limited to mid-size vehicles unless client-facing requirements dictate otherwise (e.g., transporting equipment or multiple colleagues).\n5.3 Personal vehicle use for business travel is reimbursed at the company's published per-kilometer rate, reviewed annually, and does not include fuel receipts separately.",
+        "raw_model_output": "{\n  \"answer\": \"The policy outlines the following mandatory rules regarding insurance:\\n\\n- Travel Insurance: All domestic and international travel must be booked through the approved corporate travel portal, which ensures travel insurance is automatically applied. Same-day return trips with flight times under 3 hours must still be logged in the travel portal for insurance and duty-of-care purposes. Additionally, travel insurance already covered by the corporate policy is not reimbursable under any circumstance.\\n- Health Insurance: Health insurance coverage is suspended after 45 consecutive days of unpaid leave, unless the employee opts to self-fund premiums during that period.\",\n  \"supported\": true,\n  \"citations\": [\n    {\n      \"document_id\": \"POL-002\",\n      \"section\": \"Section 2 \u2014 Travel Booking\"\n    },\n    {\n      \"document_id\": \"POL-002\",\n      \"section\": \"Section 7 \u2014 Non-Reimbursable Items\"\n    },\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 5 \u2014 Unpaid Leave\"\n    }\n  ]\n}"
+      }
+    },
+    "7e4741af-60c0-4c78-b7d8-e8f8a40f979b": {
+      "question_text": "region",
+      "answer_json": {
+        "question_id": "7e4741af-60c0-4c78-b7d8-e8f8a40f979b",
+        "answer": "I don't have sufficient evidence in the policy documents to answer this question.",
+        "supported": false,
+        "citations": [],
+        "retrieved_sources": [],
+        "confidence": 0.5235696797702698,
+        "reason_for_refusal": "no_relevant_evidence",
+        "created_at": "2026-08-18T06:57:09.770394Z"
+      },
+      "debug_json": {
+        "query": "region",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 7 \u2014 Monitoring",
+            "text": "7.1 The company reserves the right to monitor use of company-owned systems and networks for security and compliance purposes, in accordance with applicable local law.\n7.2 Monitoring data is retained for a maximum of 12 months except where required for an active investigation, and access to monitoring data is restricted to authorized Security and HR personnel.",
+            "score": 0.5235696797702698
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 6 \u2014 Expense Submission",
+            "text": "6.1 Expense reports must be submitted within 14 calendar days of trip completion, through the expense management system with scanned receipts attached.\n6.2 Reports submitted after 30 days will not be reimbursed except with Finance Director exception approval, which must include a written reason for the delay.\n6.3 All expenses over USD 25 require an itemized receipt; expenses under USD 25 may use a self-declared entry, capped at USD 100 in self-declared entries per trip.\n6.4 Expenses submitted in a foreign currency are converted using the exchange rate on the date of transaction, as sourced automatically by the expense system.",
+            "score": 0.5048386870467381
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 3 \u2014 Accommodation",
+            "text": "3.1 Hotel bookings must not exceed the city-tier cap published annually by Finance (Tier 1 cities: USD 220/night; Tier 2: USD 150/night; Tier 3: USD 100/night). The current city-tier list is maintained on the Finance intranet page and updated each January.\n3.2 Bookings exceeding the cap require pre-approval from the department head, with a brief justification (e.g., conference venue pricing, safety considerations in the destination city).\n3.3 Extended stays for project reasons (beyond 14 consecutive nights) may qualify for a long-stay corporate rate; employees should contact the Travel Desk directly rather than booking through the standard portal.",
+            "score": 0.5018817283643053
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 5 \u2014 Ground Transportation",
+            "text": "5.1 Ride-hailing and taxi expenses are reimbursable with itemized receipts, including airport transfers and client-site travel.\n5.2 Rental cars require pre-approval and are limited to mid-size vehicles unless client-facing requirements dictate otherwise (e.g., transporting equipment or multiple colleagues).\n5.3 Personal vehicle use for business travel is reimbursed at the company's published per-kilometer rate, reviewed annually, and does not include fuel receipts separately.",
+            "score": 0.5009240408102692
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 7 \u2014 Non-Reimbursable Items",
+            "text": "7.1 The following are not reimbursable under any circumstance: personal entertainment, alcohol not part of a client meal, traffic or parking fines, spa or minibar charges, and travel insurance already covered by the corporate policy.\n7.2 Alcohol as part of a client meal is reimbursable up to a reasonable limit (generally interpreted as no more than 2 drinks per attendee) and must be itemized separately from food on the receipt where possible.",
+            "score": 0.49981016753555274
+          },
+          {
+            "document_id": "POL-002",
+            "document_title": "Travel and Expense Policy",
+            "section": "Section 4 \u2014 Meals and Incidentals",
+            "text": "4.1 A daily per-diem of USD 60 is provided for international travel and USD 35 for domestic travel, covering meals and incidentals. Per-diem is paid regardless of actual spend and does not require receipts.\n4.2 Per-diem is not provided for days where meals are included in a conference or client event; the per-diem for that day is reduced by 50% if only one meal is covered, and to zero if two or more meals are covered.\n4.3 The day of departure and the day of return are each paid at 75% of the standard per-diem rate to reflect partial-day travel.",
+            "score": 0.4986075353532007
+          }
+        ],
+        "final_context_sent_to_model": "",
+        "raw_model_output": ""
+      }
+    },
+    "3aac8efe-3d41-4d57-af93-61af0eabaa59": {
+      "question_text": "harrassment",
+      "answer_json": {
+        "question_id": "3aac8efe-3d41-4d57-af93-61af0eabaa59",
+        "answer": "Regarding harassment policies:\n- System Use: Employees must not use company systems to access, store, or distribute illegal, offensive, or discriminatory content, including any content that violates the company's Anti-Harassment policy.\n- Required Training: New hires must complete Code of Conduct and Anti-Harassment training within their first 30 days, which is delivered through the Learning Management System.",
+        "supported": true,
+        "citations": [
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 2 \u2014 General Use"
+          },
+          {
+            "document_id": "POL-005",
+            "document_title": "Employee Onboarding Guide",
+            "section": "Section 4 \u2014 Mandatory Training"
+          }
+        ],
+        "retrieved_sources": [
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 2 \u2014 General Use",
+            "text": "2.1 Company systems are provided primarily for business purposes. Limited, reasonable personal use is permitted provided it does not interfere with work duties, consume excessive bandwidth, or violate other company policies.\n2.2 Employees must not use company systems to access, store, or distribute illegal, offensive, or discriminatory content, including content that violates the company's Anti-Harassment policy.\n2.3 Personal use of company systems for outside business activities (e.g., running a personal side business) is not permitted at any time.",
+            "score": 0.552780545775682
+          },
+          {
+            "document_id": "POL-005",
+            "document_title": "Employee Onboarding Guide",
+            "section": "Section 4 \u2014 Mandatory Training",
+            "text": "4.1 New hires must complete Information Security Awareness training within the first 7 working days, covering password hygiene, phishing recognition, and data classification basics from the Information Security Policy.\n4.2 New hires must complete Code of Conduct and Anti-Harassment training within the first 30 days, delivered through the Learning Management System.\n4.3 Failure to complete mandatory training within the specified window results in automatic escalation to the employee's manager and HR, and repeated non-completion may result in restricted system access until training is finished.\n4.4 Role-specific compliance training (e.g., for Finance, Legal, or client-facing roles) is assigned separately by the relevant department and is not covered by this general guide.",
+            "score": 0.5424795300322743
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 7 \u2014 Performance and Availability",
+            "text": "7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.",
+            "score": 0.5399037334794824
+          },
+          {
+            "document_id": "POL-004",
+            "document_title": "Information Security Policy",
+            "section": "Section 5 \u2014 Incident Reporting",
+            "text": "5.1 Any suspected security incident (phishing, data leak, lost device, unauthorized access) must be reported to the Security team within 1 hour of discovery, via the dedicated incident hotline or security@company email.\n5.2 Failure to report a known incident within 24 hours is treated as a policy violation subject to disciplinary review, regardless of whether the incident ultimately caused harm.\n5.3 The Security team will acknowledge receipt of a report within 2 hours during business hours and provide an initial assessment within 1 business day.",
+            "score": 0.5393815723929276
+          },
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 7 \u2014 Monitoring",
+            "text": "7.1 The company reserves the right to monitor use of company-owned systems and networks for security and compliance purposes, in accordance with applicable local law.\n7.2 Monitoring data is retained for a maximum of 12 months except where required for an active investigation, and access to monitoring data is restricted to authorized Security and HR personnel.",
+            "score": 0.5323847285293986
+          },
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 5 \u2014 Internet Usage",
+            "text": "5.1 Access to peer-to-peer file sharing, torrenting, and unauthorized proxy/VPN services on company networks is prohibited at all times.\n5.2 Reasonable personal browsing during breaks is permitted; excessive personal use affecting productivity may be addressed by the manager as a performance matter rather than a policy violation in most cases.\n5.3 Streaming of high-bandwidth personal content (video, music) during work hours should be limited, particularly when connected via VPN, to avoid degrading network performance for business-critical applications.",
+            "score": 0.5254877728834698
+          }
+        ],
+        "confidence": 0.552780545775682,
+        "reason_for_refusal": null,
+        "created_at": "2026-08-18T06:57:48.989652Z"
+      },
+      "debug_json": {
+        "query": "harrassment",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 2 \u2014 General Use",
+            "text": "2.1 Company systems are provided primarily for business purposes. Limited, reasonable personal use is permitted provided it does not interfere with work duties, consume excessive bandwidth, or violate other company policies.\n2.2 Employees must not use company systems to access, store, or distribute illegal, offensive, or discriminatory content, including content that violates the company's Anti-Harassment policy.\n2.3 Personal use of company systems for outside business activities (e.g., running a personal side business) is not permitted at any time.",
+            "score": 0.552780545775682
+          },
+          {
+            "document_id": "POL-005",
+            "document_title": "Employee Onboarding Guide",
+            "section": "Section 4 \u2014 Mandatory Training",
+            "text": "4.1 New hires must complete Information Security Awareness training within the first 7 working days, covering password hygiene, phishing recognition, and data classification basics from the Information Security Policy.\n4.2 New hires must complete Code of Conduct and Anti-Harassment training within the first 30 days, delivered through the Learning Management System.\n4.3 Failure to complete mandatory training within the specified window results in automatic escalation to the employee's manager and HR, and repeated non-completion may result in restricted system access until training is finished.\n4.4 Role-specific compliance training (e.g., for Finance, Legal, or client-facing roles) is assigned separately by the relevant department and is not covered by this general guide.",
+            "score": 0.5424795300322743
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 7 \u2014 Performance and Availability",
+            "text": "7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.",
+            "score": 0.5399037334794824
+          },
+          {
+            "document_id": "POL-004",
+            "document_title": "Information Security Policy",
+            "section": "Section 5 \u2014 Incident Reporting",
+            "text": "5.1 Any suspected security incident (phishing, data leak, lost device, unauthorized access) must be reported to the Security team within 1 hour of discovery, via the dedicated incident hotline or security@company email.\n5.2 Failure to report a known incident within 24 hours is treated as a policy violation subject to disciplinary review, regardless of whether the incident ultimately caused harm.\n5.3 The Security team will acknowledge receipt of a report within 2 hours during business hours and provide an initial assessment within 1 business day.",
+            "score": 0.5393815723929276
+          },
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 7 \u2014 Monitoring",
+            "text": "7.1 The company reserves the right to monitor use of company-owned systems and networks for security and compliance purposes, in accordance with applicable local law.\n7.2 Monitoring data is retained for a maximum of 12 months except where required for an active investigation, and access to monitoring data is restricted to authorized Security and HR personnel.",
+            "score": 0.5323847285293986
+          },
+          {
+            "document_id": "POL-006",
+            "document_title": "Acceptable Use Policy",
+            "section": "Section 5 \u2014 Internet Usage",
+            "text": "5.1 Access to peer-to-peer file sharing, torrenting, and unauthorized proxy/VPN services on company networks is prohibited at all times.\n5.2 Reasonable personal browsing during breaks is permitted; excessive personal use affecting productivity may be addressed by the manager as a performance matter rather than a policy violation in most cases.\n5.3 Streaming of high-bandwidth personal content (video, music) during work hours should be limited, particularly when connected via VPN, to avoid degrading network performance for business-critical applications.",
+            "score": 0.5254877728834698
+          }
+        ],
+        "final_context_sent_to_model": "[document_id: POL-006 | section: Section 2 \u2014 General Use]\n2.1 Company systems are provided primarily for business purposes. Limited, reasonable personal use is permitted provided it does not interfere with work duties, consume excessive bandwidth, or violate other company policies.\n2.2 Employees must not use company systems to access, store, or distribute illegal, offensive, or discriminatory content, including content that violates the company's Anti-Harassment policy.\n2.3 Personal use of company systems for outside business activities (e.g., running a personal side business) is not permitted at any time.\n\n[document_id: POL-005 | section: Section 4 \u2014 Mandatory Training]\n4.1 New hires must complete Information Security Awareness training within the first 7 working days, covering password hygiene, phishing recognition, and data classification basics from the Information Security Policy.\n4.2 New hires must complete Code of Conduct and Anti-Harassment training within the first 30 days, delivered through the Learning Management System.\n4.3 Failure to complete mandatory training within the specified window results in automatic escalation to the employee's manager and HR, and repeated non-completion may result in restricted system access until training is finished.\n4.4 Role-specific compliance training (e.g., for Finance, Legal, or client-facing roles) is assigned separately by the relevant department and is not covered by this general guide.\n\n[document_id: POL-003 | section: Section 7 \u2014 Performance and Availability]\n7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.\n\n[document_id: POL-004 | section: Section 5 \u2014 Incident Reporting]\n5.1 Any suspected security incident (phishing, data leak, lost device, unauthorized access) must be reported to the Security team within 1 hour of discovery, via the dedicated incident hotline or security@company email.\n5.2 Failure to report a known incident within 24 hours is treated as a policy violation subject to disciplinary review, regardless of whether the incident ultimately caused harm.\n5.3 The Security team will acknowledge receipt of a report within 2 hours during business hours and provide an initial assessment within 1 business day.\n\n[document_id: POL-006 | section: Section 7 \u2014 Monitoring]\n7.1 The company reserves the right to monitor use of company-owned systems and networks for security and compliance purposes, in accordance with applicable local law.\n7.2 Monitoring data is retained for a maximum of 12 months except where required for an active investigation, and access to monitoring data is restricted to authorized Security and HR personnel.\n\n[document_id: POL-006 | section: Section 5 \u2014 Internet Usage]\n5.1 Access to peer-to-peer file sharing, torrenting, and unauthorized proxy/VPN services on company networks is prohibited at all times.\n5.2 Reasonable personal browsing during breaks is permitted; excessive personal use affecting productivity may be addressed by the manager as a performance matter rather than a policy violation in most cases.\n5.3 Streaming of high-bandwidth personal content (video, music) during work hours should be limited, particularly when connected via VPN, to avoid degrading network performance for business-critical applications.",
+        "raw_model_output": "{\n  \"answer\": \"Regarding harassment policies:\\n- System Use: Employees must not use company systems to access, store, or distribute illegal, offensive, or discriminatory content, including any content that violates the company's Anti-Harassment policy.\\n- Required Training: New hires must complete Code of Conduct and Anti-Harassment training within their first 30 days, which is delivered through the Learning Management System.\",\n  \"supported\": true,\n  \"citations\": [\n    {\n      \"document_id\": \"POL-006\",\n      \"section\": \"Section 2 \u2014 General Use\"\n    },\n    {\n      \"document_id\": \"POL-005\",\n      \"section\": \"Section 4 \u2014 Mandatory Training\"\n    }\n  ]\n}"
+      }
     }
   }
 }
