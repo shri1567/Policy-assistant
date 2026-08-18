@@ -136950,6 +136950,359 @@
         "final_context_sent_to_model": "[document_id: POL-005 | section: Section 6 \u2014 Documentation]\n6.1 New hires must submit signed copies of the Employment Agreement, NDA, and Code of Conduct acknowledgment within the first week, uploaded through the HR portal.\n6.2 Bank details for payroll must be submitted before the first payroll cycle to avoid delayed payment; late submission may push the first payment to the following cycle.\n6.3 Employees changing bank details after joining must update them through the HR portal at least 5 working days before the next payroll run.\n\n[document_id: POL-005 | section: Section 3 \u2014 Day One]\n3.1 New hires must complete ID badge issuance, laptop handover, and IT account activation on their first day, coordinated by the assigned HR representative.\n3.2 A buddy is assigned to every new hire for the first 30 days to assist with onboarding questions, informal team introductions, and navigating internal systems.\n3.3 Managers are expected to hold a first-day 1:1 with the new hire covering role expectations, immediate priorities, and an introduction to the team's working norms.\n\n[document_id: POL-006 | section: Section 2 \u2014 General Use]\n2.1 Company systems are provided primarily for business purposes. Limited, reasonable personal use is permitted provided it does not interfere with work duties, consume excessive bandwidth, or violate other company policies.\n2.2 Employees must not use company systems to access, store, or distribute illegal, offensive, or discriminatory content, including content that violates the company's Anti-Harassment policy.\n2.3 Personal use of company systems for outside business activities (e.g., running a personal side business) is not permitted at any time.\n\n[document_id: POL-006 | section: Section 6 \u2014 Social Media]\n6.1 Employees must not represent official company positions on personal social media accounts without authorization from the Communications team.\n6.2 Sharing Confidential or Restricted company information on any public platform is strictly prohibited, including screenshots of internal tools, dashboards, or client materials.\n6.3 Employees are encouraged to add a standard disclaimer (\"views are my own\") when discussing industry topics related to their role on personal social media.\n\n[document_id: POL-003 | section: Section 2 \u2014 Eligibility]\n2.1 Employees who have completed 3 months of continuous service are eligible to apply for a hybrid work arrangement, submitted through the HR portal with manager co-sign-off.\n2.2 New hires within their first 3 months must work from the office unless the role is designated fully remote at time of hiring, in which case the offer letter will state this explicitly.\n2.3 Eligibility may be paused for employees on a Performance Improvement Plan, at the manager's discretion, until performance concerns are resolved.\n\n[document_id: POL-005 | section: Section 5 \u2014 Probation Period]\n5.1 The standard probation period is 90 days from the date of joining, during which performance and cultural fit are assessed against role expectations shared at Day One.\n5.2 Probation may be extended by up to 30 days at the manager's discretion if performance expectations are not yet met, with written notice to the employee explaining the reason and revised expectations.\n5.3 A formal probation review meeting must be held between the manager and employee before the 90-day mark, with the outcome (confirmation, extension, or non-confirmation) documented in the HR system.",
         "raw_model_output": "{\"answer\": \"I am sorry, but the provided evidence does not contain information about what happens if an actor joins the company as an employee.\", \"supported\": false, \"citations\": []}"
       }
+    },
+    "cb172529-7155-4e9d-8539-f889ece6ad8f": {
+      "question_text": "How many sick leave days do I get?",
+      "answer_json": {
+        "question_id": "cb172529-7155-4e9d-8539-f889ece6ad8f",
+        "answer": "Employees are entitled to 12 days of paid sick leave per calendar year, which are credited in full at the start of the year rather than accrued monthly.",
+        "supported": true,
+        "citations": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 3 \u2014 Sick Leave"
+          }
+        ],
+        "retrieved_sources": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 3 \u2014 Sick Leave",
+            "text": "3.1 Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.\n3.2 Sick leave exceeding 2 consecutive days requires a medical certificate submitted within 3 working days of return. A single-day sick leave does not require documentation but repeated single-day absences (more than 4 in a rolling 3-month period) may trigger a manager check-in.\n3.3 Sick leave does not carry forward to the next calendar year and has no cash-equivalent payout on exit.\n3.4 Sick leave taken while on approved annual leave converts the affected days back to sick leave, provided a medical certificate is furnished; the annual leave balance is restored accordingly.",
+            "score": 0.7549650962237268
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 2 \u2014 Annual Leave",
+            "text": "2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.",
+            "score": 0.6552503210469713
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.6506204217603605
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.6352874749027769
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.6258987727681654
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+            "score": 0.617676286246462
+          }
+        ],
+        "confidence": 0.7549650962237268,
+        "reason_for_refusal": null,
+        "created_at": "2026-08-18T05:54:50.312467Z"
+      },
+      "debug_json": {
+        "query": "How many sick leave days do I get?",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 3 \u2014 Sick Leave",
+            "text": "3.1 Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.\n3.2 Sick leave exceeding 2 consecutive days requires a medical certificate submitted within 3 working days of return. A single-day sick leave does not require documentation but repeated single-day absences (more than 4 in a rolling 3-month period) may trigger a manager check-in.\n3.3 Sick leave does not carry forward to the next calendar year and has no cash-equivalent payout on exit.\n3.4 Sick leave taken while on approved annual leave converts the affected days back to sick leave, provided a medical certificate is furnished; the annual leave balance is restored accordingly.",
+            "score": 0.7549650962237268
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 2 \u2014 Annual Leave",
+            "text": "2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.",
+            "score": 0.6552503210469713
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.6506204217603605
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.6352874749027769
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.6258987727681654
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+            "score": 0.617676286246462
+          }
+        ],
+        "final_context_sent_to_model": "[document_id: POL-001 | section: Section 3 \u2014 Sick Leave]\n3.1 Employees are entitled to 12 days of paid sick leave per calendar year, credited in full at the start of the year rather than accrued monthly.\n3.2 Sick leave exceeding 2 consecutive days requires a medical certificate submitted within 3 working days of return. A single-day sick leave does not require documentation but repeated single-day absences (more than 4 in a rolling 3-month period) may trigger a manager check-in.\n3.3 Sick leave does not carry forward to the next calendar year and has no cash-equivalent payout on exit.\n3.4 Sick leave taken while on approved annual leave converts the affected days back to sick leave, provided a medical certificate is furnished; the annual leave balance is restored accordingly.\n\n[document_id: POL-001 | section: Section 2 \u2014 Annual Leave]\n2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.\n\n[document_id: POL-001 | section: Section 6 \u2014 Emergency Leave]\n6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.\n\n[document_id: POL-001 | section: Section 4 \u2014 Parental Leave]\n4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.\n\n[document_id: POL-001 | section: Section 5 \u2014 Unpaid Leave]\n5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.\n\n[document_id: POL-001 | section: Section 1 \u2014 Purpose and Scope]\nThis policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+        "raw_model_output": "{\"answer\": \"Employees are entitled to 12 days of paid sick leave per calendar year, which are credited in full at the start of the year rather than accrued monthly.\", \"supported\": true, \"citations\": [{\"document_id\": \"POL-001\", \"section\": \"Section 3 \u2014 Sick Leave\"}]}"
+      }
+    },
+    "e84653ef-22fc-4290-bae3-5f190ec0e730": {
+      "question_text": "Can I work remotely from another country?",
+      "answer_json": {
+        "question_id": "e84653ef-22fc-4290-bae3-5f190ec0e730",
+        "answer": "Yes, you can work remotely from a country other than your registered work location, subject to the following rules:\n\n- You must obtain prior approval from HR and Legal, and you must request the arrangement at least 15 working days in advance.\n- Such arrangements are capped at 20 working days per calendar year unless a separate international remote work agreement is signed (this cap does not apply to employees on an approved international assignment).\n- You must not work from any country under active company travel restriction or sanctions watch published by the Legal team.\n- If you are an intern or fixed-term contractor, you require explicit written approval from HR to work remotely under any arrangement.",
+        "supported": true,
+        "citations": [
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 5 \u2014 Working From Another Country"
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 1 \u2014 Purpose and Scope"
+          }
+        ],
+        "retrieved_sources": [
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 5 \u2014 Working From Another Country",
+            "text": "5.1 Working remotely from a country other than the employee's registered work location requires prior approval from HR and Legal due to tax and compliance implications, and must be requested at least 15 working days in advance.\n5.2 Such arrangements are capped at 20 working days per calendar year unless a separate international remote work agreement is signed. This cap resets each calendar year and does not accrue or carry forward.\n5.3 Exception: This cap does not apply to employees on an approved international assignment, who are instead governed by the terms of their assignment letter.\n5.4 Employees must not work from a country under active company travel restriction or sanctions watch, as published by the Legal team, regardless of remote work eligibility otherwise.",
+            "score": 0.7474728502492806
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy sets expectations for employees working outside a company office, covering hybrid arrangements, fully remote work, and cross-border remote work. It applies to all full-time employees; interns and fixed-term contractors require explicit written approval from HR to work remotely under any arrangement.",
+            "score": 0.7054103416089933
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 4 \u2014 Fully Remote Work",
+            "text": "4.1 Fully remote arrangements (beyond 2 days/week) require Director-level approval and a documented business justification, reviewed every 6 months.\n4.2 Fully remote employees must be reachable during core hours (10:00\u201316:00 local office time) unless otherwise agreed, and are expected to attend at least one in-person team gathering per quarter where feasible.\n4.3 Fully remote status does not change an employee's designated work location for payroll, tax, or benefits purposes unless a separate relocation process has been completed.",
+            "score": 0.6607792007674096
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 6 \u2014 Equipment and Security",
+            "text": "6.1 The company provides a laptop and standard peripherals for remote work; home internet and furniture are the employee's responsibility unless a stipend is separately approved for the role or location.\n6.2 Remote employees must connect to company systems only via the corporate VPN and must not use public, unsecured Wi-Fi for work involving confidential data, per the Information Security Policy.\n6.3 Loss or damage of company equipment while working remotely must be reported to IT within 24 hours, consistent with incident reporting timelines in the Information Security Policy.",
+            "score": 0.6291738601884048
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 7 \u2014 Performance and Availability",
+            "text": "7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.",
+            "score": 0.6044548104670231
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 3 \u2014 Hybrid Arrangement",
+            "text": "3.1 Standard hybrid arrangement permits up to 2 remote days per week, to be agreed upon with the immediate manager and documented in the team's working pattern log.\n3.2 Teams with client-facing or on-site infrastructure responsibilities may have reduced remote-day allowances, as defined by the department head; any such restriction must be communicated to affected employees in writing.\n3.3 Remote days may be swapped within the same week with manager approval (e.g., swapping a Tuesday for a Thursday) but do not carry over into the following week.",
+            "score": 0.6011940719726951
+          }
+        ],
+        "confidence": 0.7474728502492806,
+        "reason_for_refusal": null,
+        "created_at": "2026-08-18T05:54:58.904900Z"
+      },
+      "debug_json": {
+        "query": "Can I work remotely from another country?",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 5 \u2014 Working From Another Country",
+            "text": "5.1 Working remotely from a country other than the employee's registered work location requires prior approval from HR and Legal due to tax and compliance implications, and must be requested at least 15 working days in advance.\n5.2 Such arrangements are capped at 20 working days per calendar year unless a separate international remote work agreement is signed. This cap resets each calendar year and does not accrue or carry forward.\n5.3 Exception: This cap does not apply to employees on an approved international assignment, who are instead governed by the terms of their assignment letter.\n5.4 Employees must not work from a country under active company travel restriction or sanctions watch, as published by the Legal team, regardless of remote work eligibility otherwise.",
+            "score": 0.7474728502492806
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy sets expectations for employees working outside a company office, covering hybrid arrangements, fully remote work, and cross-border remote work. It applies to all full-time employees; interns and fixed-term contractors require explicit written approval from HR to work remotely under any arrangement.",
+            "score": 0.7054103416089933
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 4 \u2014 Fully Remote Work",
+            "text": "4.1 Fully remote arrangements (beyond 2 days/week) require Director-level approval and a documented business justification, reviewed every 6 months.\n4.2 Fully remote employees must be reachable during core hours (10:00\u201316:00 local office time) unless otherwise agreed, and are expected to attend at least one in-person team gathering per quarter where feasible.\n4.3 Fully remote status does not change an employee's designated work location for payroll, tax, or benefits purposes unless a separate relocation process has been completed.",
+            "score": 0.6607792007674096
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 6 \u2014 Equipment and Security",
+            "text": "6.1 The company provides a laptop and standard peripherals for remote work; home internet and furniture are the employee's responsibility unless a stipend is separately approved for the role or location.\n6.2 Remote employees must connect to company systems only via the corporate VPN and must not use public, unsecured Wi-Fi for work involving confidential data, per the Information Security Policy.\n6.3 Loss or damage of company equipment while working remotely must be reported to IT within 24 hours, consistent with incident reporting timelines in the Information Security Policy.",
+            "score": 0.6291738601884048
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 7 \u2014 Performance and Availability",
+            "text": "7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.",
+            "score": 0.6044548104670231
+          },
+          {
+            "document_id": "POL-003",
+            "document_title": "Remote Work Policy",
+            "section": "Section 3 \u2014 Hybrid Arrangement",
+            "text": "3.1 Standard hybrid arrangement permits up to 2 remote days per week, to be agreed upon with the immediate manager and documented in the team's working pattern log.\n3.2 Teams with client-facing or on-site infrastructure responsibilities may have reduced remote-day allowances, as defined by the department head; any such restriction must be communicated to affected employees in writing.\n3.3 Remote days may be swapped within the same week with manager approval (e.g., swapping a Tuesday for a Thursday) but do not carry over into the following week.",
+            "score": 0.6011940719726951
+          }
+        ],
+        "final_context_sent_to_model": "[document_id: POL-003 | section: Section 5 \u2014 Working From Another Country]\n5.1 Working remotely from a country other than the employee's registered work location requires prior approval from HR and Legal due to tax and compliance implications, and must be requested at least 15 working days in advance.\n5.2 Such arrangements are capped at 20 working days per calendar year unless a separate international remote work agreement is signed. This cap resets each calendar year and does not accrue or carry forward.\n5.3 Exception: This cap does not apply to employees on an approved international assignment, who are instead governed by the terms of their assignment letter.\n5.4 Employees must not work from a country under active company travel restriction or sanctions watch, as published by the Legal team, regardless of remote work eligibility otherwise.\n\n[document_id: POL-003 | section: Section 1 \u2014 Purpose and Scope]\nThis policy sets expectations for employees working outside a company office, covering hybrid arrangements, fully remote work, and cross-border remote work. It applies to all full-time employees; interns and fixed-term contractors require explicit written approval from HR to work remotely under any arrangement.\n\n[document_id: POL-003 | section: Section 4 \u2014 Fully Remote Work]\n4.1 Fully remote arrangements (beyond 2 days/week) require Director-level approval and a documented business justification, reviewed every 6 months.\n4.2 Fully remote employees must be reachable during core hours (10:00\u201316:00 local office time) unless otherwise agreed, and are expected to attend at least one in-person team gathering per quarter where feasible.\n4.3 Fully remote status does not change an employee's designated work location for payroll, tax, or benefits purposes unless a separate relocation process has been completed.\n\n[document_id: POL-003 | section: Section 6 \u2014 Equipment and Security]\n6.1 The company provides a laptop and standard peripherals for remote work; home internet and furniture are the employee's responsibility unless a stipend is separately approved for the role or location.\n6.2 Remote employees must connect to company systems only via the corporate VPN and must not use public, unsecured Wi-Fi for work involving confidential data, per the Information Security Policy.\n6.3 Loss or damage of company equipment while working remotely must be reported to IT within 24 hours, consistent with incident reporting timelines in the Information Security Policy.\n\n[document_id: POL-003 | section: Section 7 \u2014 Performance and Availability]\n7.1 Remote work privileges may be revoked by a manager if attendance in required meetings or delivery timelines are not consistently met, following at least one documented coaching conversation.\n7.2 Repeated unavailability during core hours without prior notice may result in the employee being reverted to a full in-office schedule for a probationary review period of 60 days.\n\n[document_id: POL-003 | section: Section 3 \u2014 Hybrid Arrangement]\n3.1 Standard hybrid arrangement permits up to 2 remote days per week, to be agreed upon with the immediate manager and documented in the team's working pattern log.\n3.2 Teams with client-facing or on-site infrastructure responsibilities may have reduced remote-day allowances, as defined by the department head; any such restriction must be communicated to affected employees in writing.\n3.3 Remote days may be swapped within the same week with manager approval (e.g., swapping a Tuesday for a Thursday) but do not carry over into the following week.",
+        "raw_model_output": "{\n  \"answer\": \"Yes, you can work remotely from a country other than your registered work location, subject to the following rules:\\n\\n- You must obtain prior approval from HR and Legal, and you must request the arrangement at least 15 working days in advance.\\n- Such arrangements are capped at 20 working days per calendar year unless a separate international remote work agreement is signed (this cap does not apply to employees on an approved international assignment).\\n- You must not work from any country under active company travel restriction or sanctions watch published by the Legal team.\\n- If you are an intern or fixed-term contractor, you require explicit written approval from HR to work remotely under any arrangement.\",\n  \"supported\": true,\n  \"citations\": [\n    {\n      \"document_id\": \"POL-003\",\n      \"section\": \"Section 5 \u2014 Working From Another Country\"\n    },\n    {\n      \"document_id\": \"POL-003\",\n      \"section\": \"Section 1 \u2014 Purpose and Scope\"\n    }\n  ]\n}"
+      }
+    },
+    "4582cc15-7c4a-4586-a5f5-4f2259b310c2": {
+      "question_text": "How many leaves do i have in total ?",
+      "answer_json": {
+        "question_id": "4582cc15-7c4a-4586-a5f5-4f2259b310c2",
+        "answer": "The exact total number of leave days cannot be determined from the provided text, as individual leave balances depend on employee status, tenure, leave usage, and eligibility. However, the policy outlines specific entitlements by leave type for full-time employees:\n\n- Annual Leave: Full-time employees accrue 1.75 days per month, up to a maximum of 21 days per calendar year. Annual leave must be requested through the HR portal at least 5 working days in advance.\n- Emergency Leave: Employees may take up to 3 days per year without advance notice, but must notify their manager within 24 hours.\n- Parental Leave: Primary caregivers are entitled to 90 calendar days, while secondary caregivers are entitled to 14 calendar days. Requests must be submitted at least 30 days in advance, except in cases of premature birth or medical emergency.\n- Unpaid Leave: Employees may request up to 30 days for personal reasons, subject to approval.",
+        "supported": false,
+        "citations": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 2 \u2014 Annual Leave"
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave"
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave"
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave"
+          }
+        ],
+        "retrieved_sources": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 2 \u2014 Annual Leave",
+            "text": "2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.",
+            "score": 0.5646643287392241
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 7 \u2014 Leave During Notice Period",
+            "text": "7.1 Annual leave may not be availed during the final 15 days of a resignation notice period unless mutually agreed upon with the manager in writing, to allow for adequate handover.\n7.2 Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, is paid out as part of the final settlement, calculated on the employee's last drawn basic salary.",
+            "score": 0.5443617108510642
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+            "score": 0.5335820582319584
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.5317876840507073
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.5253904470380212
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.5195086586320042
+          }
+        ],
+        "confidence": 0.5646643287392241,
+        "reason_for_refusal": null,
+        "created_at": "2026-08-18T05:55:59.316766Z"
+      },
+      "debug_json": {
+        "query": "How many leaves do i have in total ?",
+        "retrieved_chunks": [
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 2 \u2014 Annual Leave",
+            "text": "2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.",
+            "score": 0.5646643287392241
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 7 \u2014 Leave During Notice Period",
+            "text": "7.1 Annual leave may not be availed during the final 15 days of a resignation notice period unless mutually agreed upon with the manager in writing, to allow for adequate handover.\n7.2 Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, is paid out as part of the final settlement, calculated on the employee's last drawn basic salary.",
+            "score": 0.5443617108510642
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 1 \u2014 Purpose and Scope",
+            "text": "This policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.",
+            "score": 0.5335820582319584
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 4 \u2014 Parental Leave",
+            "text": "4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.",
+            "score": 0.5317876840507073
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 6 \u2014 Emergency Leave",
+            "text": "6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.",
+            "score": 0.5253904470380212
+          },
+          {
+            "document_id": "POL-001",
+            "document_title": "Leave Policy",
+            "section": "Section 5 \u2014 Unpaid Leave",
+            "text": "5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+            "score": 0.5195086586320042
+          }
+        ],
+        "final_context_sent_to_model": "[document_id: POL-001 | section: Section 2 \u2014 Annual Leave]\n2.1 Full-time employees accrue 1.75 days of annual leave per completed month of service, up to a maximum of 21 days per calendar year. Accrual begins from the first full month of employment; the joining month is prorated based on the number of remaining working days.\n2.2 Annual leave must be requested through the HR portal at least 5 working days in advance. Requests submitted with less notice may still be approved at the manager's discretion but are not guaranteed, particularly during peak project periods.\n2.3 Unused annual leave may be carried forward, but a maximum of 5 days may be carried into the next calendar year. Any balance beyond 5 days is forfeited as of December 31st unless the employee's manager grants a written exception (see Section 2.4). Forfeited leave is not converted to a cash payout.\n2.4 Exception: Employees on active client-critical projects, as designated by their reporting manager in writing, may carry forward up to 10 days with HR approval. This exception must be requested before December 1st and re-confirmed annually; it does not automatically renew from one year to the next.\n2.5 Leave taken during a public holiday that falls within an approved leave period is not deducted from the employee's leave balance; the system automatically excludes gazetted holidays from the count.\n\n[document_id: POL-001 | section: Section 7 \u2014 Leave During Notice Period]\n7.1 Annual leave may not be availed during the final 15 days of a resignation notice period unless mutually agreed upon with the manager in writing, to allow for adequate handover.\n7.2 Any unused annual leave balance at the time of exit, up to the standard cap in Section 2.1, is paid out as part of the final settlement, calculated on the employee's last drawn basic salary.\n\n[document_id: POL-001 | section: Section 1 \u2014 Purpose and Scope]\nThis policy defines the types of leave available to employees, eligibility conditions, accrual mechanics, and the approval process. It applies to all full-time employees on the company payroll, including those on hybrid or remote arrangements under the Remote Work Policy. Interns and contractors are governed by separate terms specified in their engagement letters and are not covered by this policy unless explicitly stated.\n\n[document_id: POL-001 | section: Section 4 \u2014 Parental Leave]\n4.1 Primary caregivers are entitled to 90 calendar days of paid parental leave, inclusive of weekends and public holidays falling within the period.\n4.2 Secondary caregivers are entitled to 14 calendar days of paid parental leave, which may be split into two blocks within 6 months of the birth or adoption date, subject to manager agreement on timing.\n4.3 Parental leave must be requested at least 30 days before the expected start date, except in cases of premature birth or medical emergency, where retroactive approval within 7 days of the leave starting is permitted.\n4.4 Adoptive parents are entitled to the same parental leave terms as biological parents, effective from the date of legal custody transfer.\n\n[document_id: POL-001 | section: Section 6 \u2014 Emergency Leave]\n6.1 Employees may take up to 3 days of emergency leave per year for family emergencies, bereavement, or unforeseen circumstances, without advance notice, subject to notifying the manager within 24 hours by any reasonable means (call, message, or email).\n6.2 Emergency leave beyond 3 days in a year is deducted from the annual leave balance, or treated as unpaid leave if the annual balance is exhausted.\n\n[document_id: POL-001 | section: Section 5 \u2014 Unpaid Leave]\n5.1 Unpaid leave of up to 30 days may be requested for personal reasons, subject to manager and HR approval. Approval is not guaranteed and depends on business need and prior leave usage patterns.\n5.2 Unpaid leave exceeding 30 days requires Director-level approval and may affect benefit continuity, including health insurance coverage, which is suspended after 45 consecutive days of unpaid leave unless the employee opts to self-fund premiums during that period.",
+        "raw_model_output": "{\n  \"answer\": \"The exact total number of leave days cannot be determined from the provided text, as individual leave balances depend on employee status, tenure, leave usage, and eligibility. However, the policy outlines specific entitlements by leave type for full-time employees:\\n\\n- Annual Leave: Full-time employees accrue 1.75 days per month, up to a maximum of 21 days per calendar year. Annual leave must be requested through the HR portal at least 5 working days in advance.\\n- Emergency Leave: Employees may take up to 3 days per year without advance notice, but must notify their manager within 24 hours.\\n- Parental Leave: Primary caregivers are entitled to 90 calendar days, while secondary caregivers are entitled to 14 calendar days. Requests must be submitted at least 30 days in advance, except in cases of premature birth or medical emergency.\\n- Unpaid Leave: Employees may request up to 30 days for personal reasons, subject to approval.\",\n  \"supported\": false,\n  \"citations\": [\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 2 \u2014 Annual Leave\"\n    },\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 4 \u2014 Parental Leave\"\n    },\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 5 \u2014 Unpaid Leave\"\n    },\n    {\n      \"document_id\": \"POL-001\",\n      \"section\": \"Section 6 \u2014 Emergency Leave\"\n    }\n  ]\n}"
+      }
     }
   }
 }
